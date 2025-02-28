@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db = 'assignment_tracker';
 $user = 'root';
-$password = 'usha@2004';
+$password = '';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db", $user, $password);
