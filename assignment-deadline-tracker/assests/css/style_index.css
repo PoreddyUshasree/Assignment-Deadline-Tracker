@@ -1,0 +1,104 @@
+/* General styles for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(225, 230, 243); /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style for the form */
+form {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Style for the heading */
+form h2 {
+    /* color: #333333; */
+    color: #0A7029;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Style for input fields */
+form input[type="email"],
+form input[type="password"] {
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 12px 0px;
+    padding-left: 9px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    outline: none;
+    /* border-color: #3bd92c; Focus color
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); */
+    border-color: rgb(78, 224, 90);
+    box-shadow: 0 0 5px rgba(27, 199, 15, 0.5);
+}
+
+/* Style for the login button */
+form button {
+    width: 100%;
+    padding: 12px;
+    /* background-color: #007bff; */
+    /* background-color: #f0a500; */
+    background-color: #0A7029;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    /* background-color: #0056b3; */
+    /* background-color: #e08e00; */
+    background-color: #13ab41;
+}
+
+/* Style for the "Don't have an account?" text */
+form p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666666;
+}
+
+form p a {
+    /* color: #007bff; */
+    /* color: #f0a500; */
+    color: #0A7029;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
+
+/* Style for error message */
+form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 15px;
+}
