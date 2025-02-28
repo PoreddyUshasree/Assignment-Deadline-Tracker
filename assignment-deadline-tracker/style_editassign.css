@@ -1,0 +1,119 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc; /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    /* background-color: #007bff; Blue color */
+    /* background-color: #e8ad1a;  */
+    background-color: #0A7029;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar .nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-buttons a {
+    color: black;
+    text-decoration: none;
+    /* background-color: #0056b3; */
+    /* background-color: #7a6204; */
+    background-color: #C8DF52;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-buttons a:hover {
+    /* background-color: #004494; */
+    /* background-color: #0A7029; */
+    background-color: #fede00;
+}
+
+/* Main container */
+.main-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styles */
+.main-container h2 {
+    /* color: #007bff; Blue color */
+    /* color: #e8ad1a; */
+    color: #0A7029;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+/* Sub-container styles */
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Input fields and textarea */
+.sub-container input[type="text"],
+.sub-container input[type="date"],
+.sub-container textarea {
+    max-width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 20px; /* Rounded corners */
+    font-size: 14px;
+    background-color: #f9f9f9;
+    resize: none;
+}
+
+.sub-container textarea {
+    height: 100px;
+}
+
+.sub-container input:focus,
+.sub-container textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Focus border color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Update Assignment button */
+.sub-container button {
+    width: 100%;
+    padding: 12px;
+    /* background-color: #007bff; */
+    /* background-color: #e8ad1a; */
+    background-color: #0A7029;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sub-container button:hover {
+    /* background-color: #0056b3; */
+    background-color: #13ab41;
+}
