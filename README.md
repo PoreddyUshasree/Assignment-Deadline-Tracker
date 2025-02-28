@@ -12,9 +12,6 @@ Developed using **HTML, CSS, JavaScript** for the **frontend**, and **PHP with M
 - **🔗 Live Website:** [Assignment Deadline Tracker Live](http://tasktracker.my-style.in/)
 
 ---
-<br>
-
----
 
 ## 🎯 Features
 ✅ **User Authentication**
@@ -25,9 +22,8 @@ Developed using **HTML, CSS, JavaScript** for the **frontend**, and **PHP with M
 - Each assignment includes a **title, description, and due date**.
 
 ✅ **Dashboard Interface**
-- Displays assignments **sorted by urgency**.
-- Includes **countdown timers** for upcoming deadlines.
-- Alerts for assignments due within **3 days**.
+- Displays assignments **sorted by urgency**
+- Alerts for assignments due within **2 days**.
 
 ✅ **Secure Data Storage**
 - Uses **MySQL** for storing user and assignment data.
@@ -58,7 +54,7 @@ Developed using **HTML, CSS, JavaScript** for the **frontend**, and **PHP with M
 
 ---
 ### 📌 Dashboard Page
-![Dashboard]((https://github.com/PoreddyUshasree/Assignment-Deadline-Tracker/blob/main/images/dashboard_page.png) 
+![Dashboard](https://github.com/PoreddyUshasree/Assignment-Deadline-Tracker/blob/main/images/dashboard_page.png) 
 <br><br>
 
 ---
