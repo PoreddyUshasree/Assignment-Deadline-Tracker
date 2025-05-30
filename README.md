@@ -7,11 +7,6 @@ Developed using **HTML, CSS, JavaScript** for the **frontend**, and **PHP with M
 <br>
 
 ---
-## 🌐 Live Website
-🚀 **Experience Assignment Deadline Tracker live!**
-- **🔗 Live Website:** [Assignment Deadline Tracker Live](http://tasktracker.my-style.in/)
-
----
 
 ## 🎯 Features
 ✅ **User Authentication**
